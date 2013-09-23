@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller - News-->
+        <scene sceneID="11">
+            <objects>
+                <viewController title="News" id="2" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="ilovebtu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wr7-Jy-Dtf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="Jgo-A6-8ci"/>
+                                </constraints>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ap4-H5-wu8">
+                                <color key="pageIndicatorTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </pageControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome-Veranstaltung für die neuen internationalen Studierenden an der BTU Cottbus" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Suk-vE-FlM">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="BOL-c8-cDM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="lve-yg-Wd5"/>
+                                </constraints>
+                                <string key="text">In diesem Wintersemester 2012/2013 haben sich bereits 445 (Stand: 26.10.2012) Studierende aus dem Ausland für ein Studium an der BTU Cottbus entschieden. Obwohl der Immatrikulationsprozess aufgrund der notwendigen Einreiseformalitäten für einige zugelassene Bewerberinnen und Bewerber noch nicht abgeschlossen ist, zeigt sich damit ein positiver Trend, der sich auf die erfolgreiche Internationalisierungsstrategie der BTU zurückführen lässt. Im vergangenen Wintersemester 2011/12 lag die Zahl zum Einschreibeschluss bei 336. Der Anteil der internationalen Studierenden an der Gesamtstudierendenzahl hat sich bereits jetzt mit 1191 von 6788 auf 17,5 Prozent erhöht, während er im Vorjahr noch bei 15,5 % lag. Die meisten internationalen Studierenden kommen aus China, Polen, Indien und der Türkei.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93878522298166345" green="1" blue="0.91223657036950478" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Suk-vE-FlM" firstAttribute="top" secondItem="Wr7-Jy-Dtf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="7nr-g8-6GX"/>
+                            <constraint firstItem="BOL-c8-cDM" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9Ep-Fn-JNH"/>
+                            <constraint firstAttribute="trailing" secondItem="Suk-vE-FlM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="I9H-Md-WaY"/>
+                            <constraint firstItem="Wr7-Jy-Dtf" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="Jgp-OO-3cR"/>
+                            <constraint firstItem="Suk-vE-FlM" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Nik-fI-9Jk"/>
+                            <constraint firstItem="Wr7-Jy-Dtf" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="NoU-ga-rcY"/>
+                            <constraint firstItem="BOL-c8-cDM" firstAttribute="centerX" secondItem="Ap4-H5-wu8" secondAttribute="centerX" type="default" id="Pmm-mG-qXB"/>
+                            <constraint firstItem="BOL-c8-cDM" firstAttribute="top" secondItem="Suk-vE-FlM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="RCr-AC-23r"/>
+                            <constraint firstItem="Wr7-Jy-Dtf" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="Uhq-22-JXa"/>
+                            <constraint firstItem="Ap4-H5-wu8" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="cEQ-lT-qqQ"/>
+                            <constraint firstAttribute="trailing" secondItem="BOL-c8-cDM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fW9-YB-Hkc"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="news" id="7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-138"/>
+        </scene>
+        <!--Second View Controller - Second-->
+        <scene sceneID="13">
+            <objects>
+                <viewController title="Second" id="3" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Speiseplan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pu-HV-nfP">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="SvR-Yq-txo"/>
+                                    <constraint firstAttribute="height" constant="44" id="TTe-9R-z5R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Montag 22.10.2012" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3z8-3K-WOw">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Suppe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIX-kV-Tne">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="YVn-fu-xZd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tagessuppe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5m-Wo-cev">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Essen 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSu-1V-uJI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="uXR-eK-ns3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Gemüsetopf mit gehobeltem Edamer und einem Brötchen, auch wahlweise ohne Käse" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="199" translatesAutoresizingMaskIntoConstraints="NO" id="Bgw-Ya-yAK">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Tdp-vz-K3e"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="199" type="user" id="g1P-Gd-aOU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Essen 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kN-dH-oMx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="yBM-0q-y7Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Gekochter Pökelkamm an geschmortem Grünkohl und Salzkartoffeln, dazu Senf" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="199" translatesAutoresizingMaskIntoConstraints="NO" id="JuR-BA-AS0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="bAa-pa-Tbe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Essen 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9o-ZP-Sgw">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Spätzle-Pilz-Gouda-Pfanne mit Leipziger Allerlei und Sauce Mousseline" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="199" translatesAutoresizingMaskIntoConstraints="NO" id="NPo-v7-Gmy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ELR-7Y-0Aj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Essen 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyK-tk-yGI">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="199" translatesAutoresizingMaskIntoConstraints="NO" id="37W-Mw-HGC">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="5Kq-Zg-QIZ"/>
+                                </constraints>
+                                <string key="text">Spreewälder Rindergulasch (mit Meerrettich und Gewürzgurken), dazu Apfelrotkohl (S), Fingermöhren, Paprikagemüse sowie Kartoffelklöße, Böhmische Knödel oder Petersilienkartoffeln</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="U9o-ZP-Sgw" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0o5-8x-snn"/>
+                            <constraint firstItem="U9o-ZP-Sgw" firstAttribute="top" secondItem="JuR-BA-AS0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="235-s2-OIy"/>
+                            <constraint firstItem="37W-Mw-HGC" firstAttribute="top" secondItem="NPo-v7-Gmy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2jF-Y8-a0B"/>
+                            <constraint firstItem="V5m-Wo-cev" firstAttribute="baseline" secondItem="MIX-kV-Tne" secondAttribute="baseline" type="default" id="2ua-6n-q47"/>
+                            <constraint firstItem="uyK-tk-yGI" firstAttribute="trailing" secondItem="U9o-ZP-Sgw" secondAttribute="trailing" type="default" id="5rx-XK-44e"/>
+                            <constraint firstItem="5pu-HV-nfP" firstAttribute="top" secondItem="17" secondAttribute="top" constant="9" id="81U-Lk-mTU"/>
+                            <constraint firstItem="uyK-tk-yGI" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8qH-4C-5kU"/>
+                            <constraint firstItem="V5m-Wo-cev" firstAttribute="leading" secondItem="Bgw-Ya-yAK" secondAttribute="leading" type="default" id="AxF-Gs-xTI"/>
+                            <constraint firstItem="MIX-kV-Tne" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="COe-lG-x4D"/>
+                            <constraint firstAttribute="trailing" secondItem="Bgw-Ya-yAK" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="KKh-PL-vSP"/>
+                            <constraint firstItem="MIX-kV-Tne" firstAttribute="top" secondItem="17" secondAttribute="top" constant="86" id="Pj7-BD-Mc8"/>
+                            <constraint firstAttribute="trailing" secondItem="37W-Mw-HGC" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QWI-er-TWM"/>
+                            <constraint firstItem="NPo-v7-Gmy" firstAttribute="leading" secondItem="JuR-BA-AS0" secondAttribute="leading" type="default" id="Trl-4S-hMl"/>
+                            <constraint firstItem="uyK-tk-yGI" firstAttribute="top" secondItem="NPo-v7-Gmy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="YpM-WV-tQH"/>
+                            <constraint firstItem="4kN-dH-oMx" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bjC-aW-6JG"/>
+                            <constraint firstItem="WSu-1V-uJI" firstAttribute="top" secondItem="17" secondAttribute="top" constant="123" id="dtg-Uz-2eE"/>
+                            <constraint firstItem="37W-Mw-HGC" firstAttribute="leading" secondItem="NPo-v7-Gmy" secondAttribute="leading" type="default" id="e92-KS-wuO"/>
+                            <constraint firstAttribute="trailing" secondItem="NPo-v7-Gmy" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gaf-pk-gZ4"/>
+                            <constraint firstItem="U9o-ZP-Sgw" firstAttribute="trailing" secondItem="4kN-dH-oMx" secondAttribute="trailing" type="default" id="lw4-Wa-We7"/>
+                            <constraint firstItem="NPo-v7-Gmy" firstAttribute="top" secondItem="JuR-BA-AS0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="m38-eJ-zsX"/>
+                            <constraint firstItem="JuR-BA-AS0" firstAttribute="top" secondItem="Bgw-Ya-yAK" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oUh-L2-V0Y"/>
+                            <constraint firstItem="3z8-3K-WOw" firstAttribute="leading" secondItem="5pu-HV-nfP" secondAttribute="leading" type="default" id="pDf-cn-2GJ"/>
+                            <constraint firstItem="3z8-3K-WOw" firstAttribute="top" secondItem="17" secondAttribute="top" constant="47" id="qB4-C6-hiN"/>
+                            <constraint firstItem="5pu-HV-nfP" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="77" id="rQt-fz-j8Y"/>
+                            <constraint firstItem="WSu-1V-uJI" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="vOr-jk-UVY"/>
+                            <constraint firstItem="Bgw-Ya-yAK" firstAttribute="top" secondItem="WSu-1V-uJI" secondAttribute="top" type="default" id="vlS-ts-Ky6"/>
+                            <constraint firstItem="JuR-BA-AS0" firstAttribute="leading" secondItem="Bgw-Ya-yAK" secondAttribute="leading" type="default" id="yhq-fr-gKX"/>
+                            <constraint firstAttribute="trailing" secondItem="JuR-BA-AS0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ynU-dy-mcC"/>
+                            <constraint firstItem="4kN-dH-oMx" firstAttribute="top" secondItem="Bgw-Ya-yAK" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zCu-V3-nQp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Speiseplan" image="speiseplan" id="6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="522"/>
+        </scene>
+        <!--View Controller - Stundenplan-->
+        <scene sceneID="kMW-Cl-8eb">
+            <objects>
+                <viewController id="ebd-7I-utU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ewE-gZ-bj5">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Stundenplan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbh-aj-flh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="6NZ-2Y-fDN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="Studiengang und Module wählen, dann erscheint ein kalenderartiger Stundenplan" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="270" translatesAutoresizingMaskIntoConstraints="NO" id="PNt-3P-qK2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="202" id="A7d-dn-ggh"/>
+                                    <constraint firstAttribute="width" constant="270" id="CQW-eJ-7XB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PNt-3P-qK2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="V8L-sM-XEl"/>
+                            <constraint firstItem="PNt-3P-qK2" firstAttribute="top" secondItem="ewE-gZ-bj5" secondAttribute="top" constant="84" id="jvU-Oj-3dk"/>
+                            <constraint firstItem="hbh-aj-flh" firstAttribute="top" secondItem="ewE-gZ-bj5" secondAttribute="top" constant="30" id="tZU-sF-rdh"/>
+                            <constraint firstItem="hbh-aj-flh" firstAttribute="centerX" secondItem="ewE-gZ-bj5" secondAttribute="centerX" type="default" id="ykA-Ng-JwG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stundenplan" id="Dyt-0d-2pN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWs-eY-Z3r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="658" y="1187"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
+                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="ebd-7I-utU" kind="relationship" relationship="viewControllers" id="pdS-cu-uRS"/>
+                        <segue destination="YPe-FU-U0M" kind="relationship" relationship="viewControllers" id="4rE-N4-I0S"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="100"/>
+        </scene>
+        <!--To Do List View Controller - Aufgaben-->
+        <scene sceneID="W4Q-eb-oSM">
+            <objects>
+                <tableViewController id="YPe-FU-U0M" customClass="ToDoListViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="ShoppinglistViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Jq6-J8-Fwm">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="blue" showsReorderControl="YES" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ToDoCell" textLabel="yUU-tT-2V7" style="IBUITableViewCellStyleDefault" id="iLA-hb-UM7">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yUU-tT-2V7">
+                                            <rect key="frame" x="10" y="0.0" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="YPe-FU-U0M" id="xje-Xp-uTg"/>
+                            <outlet property="delegate" destination="YPe-FU-U0M" id="GE7-Ps-QIl"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Aufgaben" id="kXo-zc-rwB"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Jn-Az-Zcl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1095" y="457"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ilovebtu.jpg" width="779" height="369"/>
+        <image name="news" width="16" height="16"/>
+        <image name="speiseplan" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

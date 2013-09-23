@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD49544616820B1F0059FCBF /* LVSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD49544516820B1F0059FCBF /* LVSearchViewController.m */; };
+		CD4954491682147C0059FCBF /* Abschluss.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4954481682147C0059FCBF /* Abschluss.m */; };
+		CD495450168226BF0059FCBF /* Semester.m in Sources */ = {isa = PBXBuildFile; fileRef = CD49544F168226BF0059FCBF /* Semester.m */; };
+		CD49545316822E420059FCBF /* Studiengang.m in Sources */ = {isa = PBXBuildFile; fileRef = CD49545216822E420059FCBF /* Studiengang.m */; };
+		CD832C5E168357170009A548 /* Lehrveranstaltung.m in Sources */ = {isa = PBXBuildFile; fileRef = CD832C5D168357170009A548 /* Lehrveranstaltung.m */; };
+		CD832C61168366DA0009A548 /* LVListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD832C60168366DA0009A548 /* LVListViewController.m */; };
+		CD832C65168379410009A548 /* LinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD832C64168379410009A548 /* LinksViewController.m */; };
+		CD832C68168379D70009A548 /* Links.m in Sources */ = {isa = PBXBuildFile; fileRef = CD832C67168379D70009A548 /* Links.m */; };
+		CD90C8B516711A52008CF821 /* ort.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CD90C8B416711A52008CF821 /* ort.gpx */; };
+		F23662AE1672BDD9008D9B3D /* Icon-1-114.png in Resources */ = {isa = PBXBuildFile; fileRef = F23662AD1672BDD9008D9B3D /* Icon-1-114.png */; };
+		F23662B11672BDEF008D9B3D /* Icon-1-57.png in Resources */ = {isa = PBXBuildFile; fileRef = F23662B01672BDEF008D9B3D /* Icon-1-57.png */; };
+		F24E9369168B3AC700E0C3C5 /* Essen.m in Sources */ = {isa = PBXBuildFile; fileRef = F24E9368168B3AC700E0C3C5 /* Essen.m */; };
+		F24E936C168B3AEB00E0C3C5 /* MensaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24E936B168B3AEB00E0C3C5 /* MensaTableViewController.m */; };
+		F24FC169167BAAE800385C30 /* DataFileToObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FC168167BAAE800385C30 /* DataFileToObjectParser.m */; };
+		F25A2C311641A870001D13A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A2C301641A870001D13A1 /* UIKit.framework */; };
+		F25A2C331641A870001D13A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A2C321641A870001D13A1 /* Foundation.framework */; };
+		F25A2C351641A870001D13A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A2C341641A870001D13A1 /* CoreGraphics.framework */; };
+		F25A2C3B1641A870001D13A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C391641A870001D13A1 /* InfoPlist.strings */; };
+		F25A2C3D1641A870001D13A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25A2C3C1641A870001D13A1 /* main.m */; };
+		F25A2C411641A870001D13A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25A2C401641A870001D13A1 /* AppDelegate.m */; };
+		F25A2C431641A870001D13A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C421641A870001D13A1 /* Default.png */; };
+		F25A2C451641A870001D13A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C441641A870001D13A1 /* Default@2x.png */; };
+		F25A2C471641A870001D13A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C461641A870001D13A1 /* Default-568h@2x.png */; };
+		F25A2C4A1641A870001D13A1 /* MainStoryboard_iPhone_leer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C481641A870001D13A1 /* MainStoryboard_iPhone_leer.storyboard */; };
+		F25A2C4D1641A870001D13A1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C4B1641A870001D13A1 /* MainStoryboard_iPad.storyboard */; };
+		F25A2C5F1641A8AB001D13A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C591641A8AB001D13A1 /* MainStoryboard.storyboard */; };
+		F25A2C601641A8AB001D13A1 /* ToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25A2C5B1641A8AB001D13A1 /* ToDoListViewController.m */; };
+		F25A2C631641A929001D13A1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A2C621641A929001D13A1 /* libsqlite3.0.dylib */; };
+		F25A2C691641A990001D13A1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C681641A98F001D13A1 /* MainStoryboard_iPhone.storyboard */; };
+		F25A2C6E1641AAC2001D13A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25A2C6B1641AAC2001D13A1 /* FirstViewController.m */; };
+		F25A2C6F1641AAC2001D13A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25A2C6D1641AAC2001D13A1 /* SecondViewController.m */; };
+		F25A2C711641AB05001D13A1 /* BTU-CampusApp-alt.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F25A2C701641AB05001D13A1 /* BTU-CampusApp-alt.sqlite3 */; };
+		F277ED79168B3C8100CD58E9 /* MensaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F277ED78168B3C8100CD58E9 /* MensaViewController.m */; };
+		F28FD9E516735E24001419BC /* adress-book3.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9CA16735E23001419BC /* adress-book3.png */; };
+		F28FD9E616735E24001419BC /* adress-book3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9CB16735E23001419BC /* adress-book3@2x.png */; };
+		F28FD9E716735E24001419BC /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9CC16735E23001419BC /* book.png */; };
+		F28FD9E816735E24001419BC /* book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9CD16735E23001419BC /* book@2x.png */; };
+		F28FD9E916735E24001419BC /* boxes.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9CE16735E23001419BC /* boxes.png */; };
+		F28FD9EA16735E24001419BC /* boxes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9CF16735E23001419BC /* boxes@2x.png */; };
+		F28FD9EB16735E24001419BC /* bullet-list.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D016735E23001419BC /* bullet-list.png */; };
+		F28FD9EC16735E24001419BC /* bullet-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D116735E23001419BC /* bullet-list@2x.png */; };
+		F28FD9ED16735E24001419BC /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D216735E23001419BC /* calendar.png */; };
+		F28FD9EE16735E24001419BC /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D316735E23001419BC /* calendar@2x.png */; };
+		F28FD9EF16735E24001419BC /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D416735E23001419BC /* clock.png */; };
+		F28FD9F016735E24001419BC /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D516735E23001419BC /* clock@2x.png */; };
+		F28FD9F116735E24001419BC /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D616735E23001419BC /* comment.png */; };
+		F28FD9F216735E24001419BC /* comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D716735E23001419BC /* comment@2x.png */; };
+		F28FD9F316735E24001419BC /* fork-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D816735E23001419BC /* fork-knife.png */; };
+		F28FD9F416735E24001419BC /* fork-knife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9D916735E23001419BC /* fork-knife@2x.png */; };
+		F28FD9F516735E24001419BC /* graduation-cap.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9DA16735E23001419BC /* graduation-cap.png */; };
+		F28FD9F616735E24001419BC /* map-compass.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9DB16735E23001419BC /* map-compass.png */; };
+		F28FD9F716735E24001419BC /* map-compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9DC16735E23001419BC /* map-compass@2x.png */; };
+		F28FD9F816735E24001419BC /* map-marker2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9DD16735E23001419BC /* map-marker2@2x.png */; };
+		F28FD9F916735E24001419BC /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9DE16735E23001419BC /* map.png */; };
+		F28FD9FA16735E24001419BC /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9DF16735E23001419BC /* map@2x.png */; };
+		F28FD9FB16735E24001419BC /* meal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9E016735E23001419BC /* meal@2x.png */; };
+		F28FD9FC16735E24001419BC /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9E116735E23001419BC /* newspaper.png */; };
+		F28FD9FD16735E24001419BC /* stock-market@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9E216735E23001419BC /* stock-market@2x.png */; };
+		F28FD9FE16735E24001419BC /* user-diploma.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9E316735E23001419BC /* user-diploma.png */; };
+		F28FD9FF16735E24001419BC /* user-diploma@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28FD9E416735E23001419BC /* user-diploma@2x.png */; };
+		F293B14D166CB13200F3DA00 /* iPhone-BTU-CampusApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F293B14C166CB13200F3DA00 /* iPhone-BTU-CampusApp.storyboard */; };
+		F293B168166CB96A00F3DA00 /* AnnotationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F293B15D166CB96A00F3DA00 /* AnnotationClass.m */; };
+		F293B16A166CB96A00F3DA00 /* CampusMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F293B160166CB96A00F3DA00 /* CampusMapAppDelegate.m */; };
+		F293B16B166CB96A00F3DA00 /* CampusMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F293B162166CB96A00F3DA00 /* CampusMapViewController.m */; };
+		F293B16E166CBF8600F3DA00 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B16D166CBF8500F3DA00 /* MapKit.framework */; };
+		F298FB931674B44100213AAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F2915E601674B018007842B3 /* Default.png */; };
+		F298FB941674B44B00213AAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2915E631674B023007842B3 /* Default@2x.png */; };
+		F298FB951674B45400213AAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2915E651674B02D007842B3 /* Default-568h@2x.png */; };
+		F298FBA51674F01100213AAF /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F298FBA41674F01100213AAF /* WebViewViewController.m */; };
+		F298FBAB1674F0B600213AAF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F298FBAA1674F0B600213AAF /* WebViewController.m */; };
+		F298FBAD1674FD1A00213AAF /* Icon-1-144.png in Resources */ = {isa = PBXBuildFile; fileRef = F298FBAC1674FD1900213AAF /* Icon-1-144.png */; };
+		F298FBAF1674FD3800213AAF /* Icon-1-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F298FBAE1674FD3800213AAF /* Icon-1-72.png */; };
+		F298FBB11675054600213AAF /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F298FBB01675054500213AAF /* Default-Portrait~ipad.png */; };
+		F298FBB31675055200213AAF /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F298FBB21675055100213AAF /* Default-Portrait@2x~ipad.png */; };
+		F298FBB51675056200213AAF /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F298FBB41675056200213AAF /* Default-Landscape~ipad.png */; };
+		F298FBB71675056D00213AAF /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F298FBB61675056D00213AAF /* Default-Landscape@2x~ipad.png */; };
+		F2CEC070167BA1CF00DB57EF /* MensaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CEC060167BA1CF00DB57EF /* MensaView.xib */; };
+		F2CEC073167BA1CF00DB57EF /* OpeningHours.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEC065167BA1CF00DB57EF /* OpeningHours.m */; };
+		F2CEC074167BA1CF00DB57EF /* OpeningHoursTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEC067167BA1CF00DB57EF /* OpeningHoursTableViewController.m */; };
+		F2CEC075167BA1CF00DB57EF /* OpeningHoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEC069167BA1CF00DB57EF /* OpeningHoursViewController.m */; };
+		F2CEC076167BA1CF00DB57EF /* Produkt.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEC06B167BA1CF00DB57EF /* Produkt.m */; };
+		F2CEC077167BA1CF00DB57EF /* ProduktViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEC06C167BA1CF00DB57EF /* ProduktViewController.m */; };
+		F2CEC079167BA1CF00DB57EF /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CEC06F167BA1CF00DB57EF /* RootViewController.xib */; };
+		F2CEC07E167BA26100DB57EF /* DbConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CEC07D167BA26100DB57EF /* DbConnect.m */; };
+		F2FEB695167D4B2D00963DFD /* BTU-CampusApp.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F2FEB694167D4B2D00963DFD /* BTU-CampusApp.sqlite3 */; };
+		F2FF16D6167D42AF004D8087 /* tabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF16D2167D42AF004D8087 /* tabbaritem.png */; };
+		F2FF16D7167D42AF004D8087 /* tabbaritem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF16D3167D42AF004D8087 /* tabbaritem@2x.png */; };
+		F2FF16DA167D4390004D8087 /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF16D8167D4390004D8087 /* tabbar.png */; };
+		F2FF16DB167D4390004D8087 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2FF16D9167D4390004D8087 /* tabbar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD49544416820B1F0059FCBF /* LVSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVSearchViewController.h; sourceTree = "<group>"; };
+		CD49544516820B1F0059FCBF /* LVSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVSearchViewController.m; sourceTree = "<group>"; };
+		CD4954471682147C0059FCBF /* Abschluss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abschluss.h; sourceTree = "<group>"; };
+		CD4954481682147C0059FCBF /* Abschluss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Abschluss.m; sourceTree = "<group>"; };
+		CD49544E168226BF0059FCBF /* Semester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semester.h; sourceTree = "<group>"; };
+		CD49544F168226BF0059FCBF /* Semester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Semester.m; sourceTree = "<group>"; };
+		CD49545116822E420059FCBF /* Studiengang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Studiengang.h; sourceTree = "<group>"; };
+		CD49545216822E420059FCBF /* Studiengang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Studiengang.m; sourceTree = "<group>"; };
+		CD832C5C168357170009A548 /* Lehrveranstaltung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lehrveranstaltung.h; sourceTree = "<group>"; };
+		CD832C5D168357170009A548 /* Lehrveranstaltung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lehrveranstaltung.m; sourceTree = "<group>"; };
+		CD832C5F168366D90009A548 /* LVListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVListViewController.h; sourceTree = "<group>"; };
+		CD832C60168366DA0009A548 /* LVListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVListViewController.m; sourceTree = "<group>"; };
+		CD832C63168379410009A548 /* LinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
+		CD832C64168379410009A548 /* LinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksViewController.m; sourceTree = "<group>"; };
+		CD832C66168379D70009A548 /* Links.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Links.h; sourceTree = "<group>"; };
+		CD832C67168379D70009A548 /* Links.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Links.m; sourceTree = "<group>"; };
+		CD90C8B416711A52008CF821 /* ort.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ort.gpx; path = "BTU-CampusApp/ort.gpx"; sourceTree = "<group>"; };
+		F23662AD1672BDD9008D9B3D /* Icon-1-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1-114.png"; path = "../Icon-1-114.png"; sourceTree = "<group>"; };
+		F23662B01672BDEF008D9B3D /* Icon-1-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1-57.png"; path = "../Icon-1-57.png"; sourceTree = "<group>"; };
+		F24E9367168B3AC700E0C3C5 /* Essen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Essen.h; sourceTree = "<group>"; };
+		F24E9368168B3AC700E0C3C5 /* Essen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Essen.m; sourceTree = "<group>"; };
+		F24E936A168B3AEB00E0C3C5 /* MensaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensaTableViewController.h; sourceTree = "<group>"; };
+		F24E936B168B3AEB00E0C3C5 /* MensaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensaTableViewController.m; sourceTree = "<group>"; };
+		F24FC167167BAAE800385C30 /* DataFileToObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFileToObjectParser.h; sourceTree = "<group>"; };
+		F24FC168167BAAE800385C30 /* DataFileToObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFileToObjectParser.m; sourceTree = "<group>"; };
+		F25A2C2C1641A870001D13A1 /* BTU-CampusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTU-CampusApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25A2C301641A870001D13A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F25A2C321641A870001D13A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F25A2C341641A870001D13A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F25A2C381641A870001D13A1 /* BTU-CampusApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTU-CampusApp-Info.plist"; sourceTree = "<group>"; };
+		F25A2C3A1641A870001D13A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F25A2C3C1641A870001D13A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25A2C3E1641A870001D13A1 /* BTU-CampusApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTU-CampusApp-Prefix.pch"; sourceTree = "<group>"; };
+		F25A2C3F1641A870001D13A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25A2C401641A870001D13A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25A2C421641A870001D13A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F25A2C441641A870001D13A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F25A2C461641A870001D13A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F25A2C591641A8AB001D13A1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F25A2C5A1641A8AB001D13A1 /* ToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListViewController.h; sourceTree = "<group>"; };
+		F25A2C5B1641A8AB001D13A1 /* ToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListViewController.m; sourceTree = "<group>"; };
+		F25A2C621641A929001D13A1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		F25A2C681641A98F001D13A1 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F25A2C6A1641AAC1001D13A1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F25A2C6B1641AAC2001D13A1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F25A2C6C1641AAC2001D13A1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F25A2C6D1641AAC2001D13A1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F25A2C701641AB05001D13A1 /* BTU-CampusApp-alt.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BTU-CampusApp-alt.sqlite3"; sourceTree = "<group>"; };
+		F266ABA0167BA6B8003E8A88 /* ProduktViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProduktViewController.h; sourceTree = "<group>"; };
+		F277ED77168B3C8100CD58E9 /* MensaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensaViewController.h; sourceTree = "<group>"; };
+		F277ED78168B3C8100CD58E9 /* MensaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensaViewController.m; sourceTree = "<group>"; };
+		F28FD9CA16735E23001419BC /* adress-book3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adress-book3.png"; sourceTree = "<group>"; };
+		F28FD9CB16735E23001419BC /* adress-book3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adress-book3@2x.png"; sourceTree = "<group>"; };
+		F28FD9CC16735E23001419BC /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		F28FD9CD16735E23001419BC /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book@2x.png"; sourceTree = "<group>"; };
+		F28FD9CE16735E23001419BC /* boxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxes.png; sourceTree = "<group>"; };
+		F28FD9CF16735E23001419BC /* boxes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boxes@2x.png"; sourceTree = "<group>"; };
+		F28FD9D016735E23001419BC /* bullet-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet-list.png"; sourceTree = "<group>"; };
+		F28FD9D116735E23001419BC /* bullet-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullet-list@2x.png"; sourceTree = "<group>"; };
+		F28FD9D216735E23001419BC /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		F28FD9D316735E23001419BC /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		F28FD9D416735E23001419BC /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		F28FD9D516735E23001419BC /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		F28FD9D616735E23001419BC /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		F28FD9D716735E23001419BC /* comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment@2x.png"; sourceTree = "<group>"; };
+		F28FD9D816735E23001419BC /* fork-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fork-knife.png"; sourceTree = "<group>"; };
+		F28FD9D916735E23001419BC /* fork-knife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fork-knife@2x.png"; sourceTree = "<group>"; };
+		F28FD9DA16735E23001419BC /* graduation-cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graduation-cap.png"; sourceTree = "<group>"; };
+		F28FD9DB16735E23001419BC /* map-compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-compass.png"; sourceTree = "<group>"; };
+		F28FD9DC16735E23001419BC /* map-compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-compass@2x.png"; sourceTree = "<group>"; };
+		F28FD9DD16735E23001419BC /* map-marker2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-marker2@2x.png"; sourceTree = "<group>"; };
+		F28FD9DE16735E23001419BC /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		F28FD9DF16735E23001419BC /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		F28FD9E016735E23001419BC /* meal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meal@2x.png"; sourceTree = "<group>"; };
+		F28FD9E116735E23001419BC /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
+		F28FD9E216735E23001419BC /* stock-market@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stock-market@2x.png"; sourceTree = "<group>"; };
+		F28FD9E316735E23001419BC /* user-diploma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-diploma.png"; sourceTree = "<group>"; };
+		F28FD9E416735E23001419BC /* user-diploma@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-diploma@2x.png"; sourceTree = "<group>"; };
+		F28FDA00167360BD001419BC /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard_iPhone_leer.storyboard; sourceTree = "<group>"; };
+		F28FDA01167360BE001419BC /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F28FDA02167360BF001419BC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2915E601674B018007842B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F2915E631674B023007842B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F2915E651674B02D007842B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F293B14C166CB13200F3DA00 /* iPhone-BTU-CampusApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "iPhone-BTU-CampusApp.storyboard"; sourceTree = "<group>"; };
+		F293B15C166CB96A00F3DA00 /* AnnotationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationClass.h; path = Classes/AnnotationClass.h; sourceTree = "<group>"; };
+		F293B15D166CB96A00F3DA00 /* AnnotationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationClass.m; path = Classes/AnnotationClass.m; sourceTree = "<group>"; };
+		F293B15F166CB96A00F3DA00 /* CampusMapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CampusMapAppDelegate.h; path = Classes/CampusMapAppDelegate.h; sourceTree = "<group>"; };
+		F293B160166CB96A00F3DA00 /* CampusMapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CampusMapAppDelegate.m; path = Classes/CampusMapAppDelegate.m; sourceTree = "<group>"; };
+		F293B161166CB96A00F3DA00 /* CampusMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CampusMapViewController.h; path = Classes/CampusMapViewController.h; sourceTree = "<group>"; };
+		F293B162166CB96A00F3DA00 /* CampusMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CampusMapViewController.m; path = Classes/CampusMapViewController.m; sourceTree = "<group>"; };
+		F293B16D166CBF8500F3DA00 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F298FBA31674F01100213AAF /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		F298FBA41674F01100213AAF /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		F298FBA91674F0B600213AAF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F298FBAA1674F0B600213AAF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F298FBAC1674FD1900213AAF /* Icon-1-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1-144.png"; sourceTree = "<group>"; };
+		F298FBAE1674FD3800213AAF /* Icon-1-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1-72.png"; sourceTree = "<group>"; };
+		F298FBB01675054500213AAF /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F298FBB21675055100213AAF /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		F298FBB41675056200213AAF /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		F298FBB61675056D00213AAF /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		F2CEC060167BA1CF00DB57EF /* MensaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MensaView.xib; sourceTree = "<group>"; };
+		F2CEC064167BA1CF00DB57EF /* OpeningHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningHours.h; sourceTree = "<group>"; };
+		F2CEC065167BA1CF00DB57EF /* OpeningHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningHours.m; sourceTree = "<group>"; };
+		F2CEC066167BA1CF00DB57EF /* OpeningHoursTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningHoursTableViewController.h; sourceTree = "<group>"; };
+		F2CEC067167BA1CF00DB57EF /* OpeningHoursTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningHoursTableViewController.m; sourceTree = "<group>"; };
+		F2CEC068167BA1CF00DB57EF /* OpeningHoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningHoursViewController.h; sourceTree = "<group>"; };
+		F2CEC069167BA1CF00DB57EF /* OpeningHoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningHoursViewController.m; sourceTree = "<group>"; };
+		F2CEC06A167BA1CF00DB57EF /* Produkt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Produkt.h; sourceTree = "<group>"; };
+		F2CEC06B167BA1CF00DB57EF /* Produkt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Produkt.m; sourceTree = "<group>"; };
+		F2CEC06C167BA1CF00DB57EF /* ProduktViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProduktViewController.m; sourceTree = "<group>"; };
+		F2CEC06F167BA1CF00DB57EF /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F2CEC07C167BA26100DB57EF /* DbConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbConnect.h; sourceTree = "<group>"; };
+		F2CEC07D167BA26100DB57EF /* DbConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbConnect.m; sourceTree = "<group>"; };
+		F2FEB694167D4B2D00963DFD /* BTU-CampusApp.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BTU-CampusApp.sqlite3"; sourceTree = "<group>"; };
+		F2FF16D2167D42AF004D8087 /* tabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbaritem.png; sourceTree = "<group>"; };
+		F2FF16D3167D42AF004D8087 /* tabbaritem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbaritem@2x.png"; sourceTree = "<group>"; };
+		F2FF16D8167D4390004D8087 /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		F2FF16D9167D4390004D8087 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25A2C291641A870001D13A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F293B16E166CBF8600F3DA00 /* MapKit.framework in Frameworks */,
+				F25A2C631641A929001D13A1 /* libsqlite3.0.dylib in Frameworks */,
+				F25A2C311641A870001D13A1 /* UIKit.framework in Frameworks */,
+				F25A2C331641A870001D13A1 /* Foundation.framework in Frameworks */,
+				F25A2C351641A870001D13A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD49544216820B0A0059FCBF /* Lehrveranstaltung */ = {
+			isa = PBXGroup;
+			children = (
+				CD4954471682147C0059FCBF /* Abschluss.h */,
+				CD4954481682147C0059FCBF /* Abschluss.m */,
+				CD49544416820B1F0059FCBF /* LVSearchViewController.h */,
+				CD49544516820B1F0059FCBF /* LVSearchViewController.m */,
+				CD49544E168226BF0059FCBF /* Semester.h */,
+				CD49544F168226BF0059FCBF /* Semester.m */,
+				CD49545116822E420059FCBF /* Studiengang.h */,
+				CD49545216822E420059FCBF /* Studiengang.m */,
+				CD832C5C168357170009A548 /* Lehrveranstaltung.h */,
+				CD832C5D168357170009A548 /* Lehrveranstaltung.m */,
+				CD832C5F168366D90009A548 /* LVListViewController.h */,
+				CD832C60168366DA0009A548 /* LVListViewController.m */,
+			);
+			name = Lehrveranstaltung;
+			sourceTree = "<group>";
+		};
+		CD832C62168379260009A548 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				CD832C63168379410009A548 /* LinksViewController.h */,
+				CD832C64168379410009A548 /* LinksViewController.m */,
+				CD832C66168379D70009A548 /* Links.h */,
+				CD832C67168379D70009A548 /* Links.m */,
+			);
+			name = Links;
+			sourceTree = "<group>";
+		};
+		F24E9366168B3AAA00E0C3C5 /* Mensa */ = {
+			isa = PBXGroup;
+			children = (
+				F24E9367168B3AC700E0C3C5 /* Essen.h */,
+				F24E9368168B3AC700E0C3C5 /* Essen.m */,
+				F24E936A168B3AEB00E0C3C5 /* MensaTableViewController.h */,
+				F24E936B168B3AEB00E0C3C5 /* MensaTableViewController.m */,
+				F277ED77168B3C8100CD58E9 /* MensaViewController.h */,
+				F277ED78168B3C8100CD58E9 /* MensaViewController.m */,
+			);
+			name = Mensa;
+			sourceTree = "<group>";
+		};
+		F25A2C211641A870001D13A1 = {
+			isa = PBXGroup;
+			children = (
+				F298FBB61675056D00213AAF /* Default-Landscape@2x~ipad.png */,
+				F298FBB41675056200213AAF /* Default-Landscape~ipad.png */,
+				F298FBB21675055100213AAF /* Default-Portrait@2x~ipad.png */,
+				F298FBB01675054500213AAF /* Default-Portrait~ipad.png */,
+				F298FBAE1674FD3800213AAF /* Icon-1-72.png */,
+				F298FBAC1674FD1900213AAF /* Icon-1-144.png */,
+				F2915E651674B02D007842B3 /* Default-568h@2x.png */,
+				F2915E631674B023007842B3 /* Default@2x.png */,
+				F2915E601674B018007842B3 /* Default.png */,
+				CD90C8B416711A52008CF821 /* ort.gpx */,
+				F293B16D166CBF8500F3DA00 /* MapKit.framework */,
+				F25A2C361641A870001D13A1 /* BTU-CampusApp */,
+				F25A2C2F1641A870001D13A1 /* Frameworks */,
+				F25A2C2D1641A870001D13A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25A2C2D1641A870001D13A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25A2C2C1641A870001D13A1 /* BTU-CampusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25A2C2F1641A870001D13A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25A2C621641A929001D13A1 /* libsqlite3.0.dylib */,
+				F25A2C301641A870001D13A1 /* UIKit.framework */,
+				F25A2C321641A870001D13A1 /* Foundation.framework */,
+				F25A2C341641A870001D13A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25A2C361641A870001D13A1 /* BTU-CampusApp */ = {
+			isa = PBXGroup;
+			children = (
+				F28FD9A616735A85001419BC /* Images */,
+				F293B154166CB94E00F3DA00 /* Beta-Alle */,
+				F25A2C731641ACFB001D13A1 /* ToDoList */,
+				F25A2C721641ACE4001D13A1 /* DBControl */,
+				F25A2C571641A89E001D13A1 /* Betaecke Matthias */,
+				F25A2C3F1641A870001D13A1 /* AppDelegate.h */,
+				F25A2C401641A870001D13A1 /* AppDelegate.m */,
+				F25A2C481641A870001D13A1 /* MainStoryboard_iPhone_leer.storyboard */,
+				F25A2C6A1641AAC1001D13A1 /* FirstViewController.h */,
+				F25A2C6B1641AAC2001D13A1 /* FirstViewController.m */,
+				F25A2C6C1641AAC2001D13A1 /* SecondViewController.h */,
+				F25A2C6D1641AAC2001D13A1 /* SecondViewController.m */,
+				F25A2C4B1641A870001D13A1 /* MainStoryboard_iPad.storyboard */,
+				F25A2C371641A870001D13A1 /* Supporting Files */,
+			);
+			path = "BTU-CampusApp";
+			sourceTree = "<group>";
+		};
+		F25A2C371641A870001D13A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25A2C381641A870001D13A1 /* BTU-CampusApp-Info.plist */,
+				F25A2C391641A870001D13A1 /* InfoPlist.strings */,
+				F25A2C3C1641A870001D13A1 /* main.m */,
+				F25A2C3E1641A870001D13A1 /* BTU-CampusApp-Prefix.pch */,
+				F25A2C421641A870001D13A1 /* Default.png */,
+				F25A2C441641A870001D13A1 /* Default@2x.png */,
+				F25A2C461641A870001D13A1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25A2C571641A89E001D13A1 /* Betaecke Matthias */ = {
+			isa = PBXGroup;
+			children = (
+				F25A2C681641A98F001D13A1 /* MainStoryboard_iPhone.storyboard */,
+				F25A2C591641A8AB001D13A1 /* MainStoryboard.storyboard */,
+			);
+			name = "Betaecke Matthias";
+			sourceTree = "<group>";
+		};
+		F25A2C721641ACE4001D13A1 /* DBControl */ = {
+			isa = PBXGroup;
+			children = (
+				F2CEC07C167BA26100DB57EF /* DbConnect.h */,
+				F2CEC07D167BA26100DB57EF /* DbConnect.m */,
+				F2FEB694167D4B2D00963DFD /* BTU-CampusApp.sqlite3 */,
+				F25A2C701641AB05001D13A1 /* BTU-CampusApp-alt.sqlite3 */,
+			);
+			name = DBControl;
+			sourceTree = "<group>";
+		};
+		F25A2C731641ACFB001D13A1 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				F25A2C5A1641A8AB001D13A1 /* ToDoListViewController.h */,
+				F25A2C5B1641A8AB001D13A1 /* ToDoListViewController.m */,
+			);
+			name = ToDoList;
+			sourceTree = "<group>";
+		};
+		F28FD9A616735A85001419BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF16D8167D4390004D8087 /* tabbar.png */,
+				F2FF16D9167D4390004D8087 /* tabbar@2x.png */,
+				F2FF16D2167D42AF004D8087 /* tabbaritem.png */,
+				F2FF16D3167D42AF004D8087 /* tabbaritem@2x.png */,
+				F28FD9CA16735E23001419BC /* adress-book3.png */,
+				F28FD9CB16735E23001419BC /* adress-book3@2x.png */,
+				F28FD9CC16735E23001419BC /* book.png */,
+				F28FD9CD16735E23001419BC /* book@2x.png */,
+				F28FD9CE16735E23001419BC /* boxes.png */,
+				F28FD9CF16735E23001419BC /* boxes@2x.png */,
+				F28FD9D016735E23001419BC /* bullet-list.png */,
+				F28FD9D116735E23001419BC /* bullet-list@2x.png */,
+				F28FD9D216735E23001419BC /* calendar.png */,
+				F28FD9D316735E23001419BC /* calendar@2x.png */,
+				F28FD9D416735E23001419BC /* clock.png */,
+				F28FD9D516735E23001419BC /* clock@2x.png */,
+				F28FD9D616735E23001419BC /* comment.png */,
+				F28FD9D716735E23001419BC /* comment@2x.png */,
+				F28FD9D816735E23001419BC /* fork-knife.png */,
+				F28FD9D916735E23001419BC /* fork-knife@2x.png */,
+				F28FD9DA16735E23001419BC /* graduation-cap.png */,
+				F28FD9DB16735E23001419BC /* map-compass.png */,
+				F28FD9DC16735E23001419BC /* map-compass@2x.png */,
+				F28FD9DD16735E23001419BC /* map-marker2@2x.png */,
+				F28FD9DE16735E23001419BC /* map.png */,
+				F28FD9DF16735E23001419BC /* map@2x.png */,
+				F28FD9E016735E23001419BC /* meal@2x.png */,
+				F28FD9E116735E23001419BC /* newspaper.png */,
+				F28FD9E216735E23001419BC /* stock-market@2x.png */,
+				F28FD9E316735E23001419BC /* user-diploma.png */,
+				F28FD9E416735E23001419BC /* user-diploma@2x.png */,
+				F23662B01672BDEF008D9B3D /* Icon-1-57.png */,
+				F23662AD1672BDD9008D9B3D /* Icon-1-114.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F28FDA051673652C001419BC /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				F298FBA31674F01100213AAF /* WebViewViewController.h */,
+				F298FBA41674F01100213AAF /* WebViewViewController.m */,
+				F298FBA91674F0B600213AAF /* WebViewController.h */,
+				F298FBAA1674F0B600213AAF /* WebViewController.m */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		F290FFEA16714CFC007BC31F /* Mensa-old */ = {
+			isa = PBXGroup;
+			children = (
+				F24FC167167BAAE800385C30 /* DataFileToObjectParser.h */,
+				F24FC168167BAAE800385C30 /* DataFileToObjectParser.m */,
+				F2CEC060167BA1CF00DB57EF /* MensaView.xib */,
+				F266ABA0167BA6B8003E8A88 /* ProduktViewController.h */,
+				F2CEC06A167BA1CF00DB57EF /* Produkt.h */,
+				F2CEC06B167BA1CF00DB57EF /* Produkt.m */,
+				F2CEC06C167BA1CF00DB57EF /* ProduktViewController.m */,
+				F2CEC06F167BA1CF00DB57EF /* RootViewController.xib */,
+			);
+			name = "Mensa-old";
+			sourceTree = "<group>";
+		};
+		F293B154166CB94E00F3DA00 /* Beta-Alle */ = {
+			isa = PBXGroup;
+			children = (
+				F24E9366168B3AAA00E0C3C5 /* Mensa */,
+				CD832C62168379260009A548 /* Links */,
+				CD49544216820B0A0059FCBF /* Lehrveranstaltung */,
+				F2CEC07B167BA1D600DB57EF /* OpeningHours */,
+				F298FB9A1674C18600213AAF /* CampusMap */,
+				F28FDA051673652C001419BC /* WebView */,
+				F290FFEA16714CFC007BC31F /* Mensa-old */,
+				F293B14C166CB13200F3DA00 /* iPhone-BTU-CampusApp.storyboard */,
+				F293B155166CB96A00F3DA00 /* Classes */,
+			);
+			name = "Beta-Alle";
+			sourceTree = "<group>";
+		};
+		F293B155166CB96A00F3DA00 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F298FB9A1674C18600213AAF /* CampusMap */ = {
+			isa = PBXGroup;
+			children = (
+				F293B15C166CB96A00F3DA00 /* AnnotationClass.h */,
+				F293B15D166CB96A00F3DA00 /* AnnotationClass.m */,
+				F293B15F166CB96A00F3DA00 /* CampusMapAppDelegate.h */,
+				F293B160166CB96A00F3DA00 /* CampusMapAppDelegate.m */,
+				F293B161166CB96A00F3DA00 /* CampusMapViewController.h */,
+				F293B162166CB96A00F3DA00 /* CampusMapViewController.m */,
+			);
+			name = CampusMap;
+			sourceTree = "<group>";
+		};
+		F2CEC07B167BA1D600DB57EF /* OpeningHours */ = {
+			isa = PBXGroup;
+			children = (
+				F2CEC064167BA1CF00DB57EF /* OpeningHours.h */,
+				F2CEC065167BA1CF00DB57EF /* OpeningHours.m */,
+				F2CEC066167BA1CF00DB57EF /* OpeningHoursTableViewController.h */,
+				F2CEC067167BA1CF00DB57EF /* OpeningHoursTableViewController.m */,
+				F2CEC068167BA1CF00DB57EF /* OpeningHoursViewController.h */,
+				F2CEC069167BA1CF00DB57EF /* OpeningHoursViewController.m */,
+			);
+			name = OpeningHours;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25A2C2B1641A870001D13A1 /* BTU-CampusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25A2C531641A870001D13A1 /* Build configuration list for PBXNativeTarget "BTU-CampusApp" */;
+			buildPhases = (
+				F25A2C281641A870001D13A1 /* Sources */,
+				F25A2C291641A870001D13A1 /* Frameworks */,
+				F25A2C2A1641A870001D13A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BTU-CampusApp";
+			productName = "BTU-CampusApp";
+			productReference = F25A2C2C1641A870001D13A1 /* BTU-CampusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25A2C231641A870001D13A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = JMMMT;
+			};
+			buildConfigurationList = F25A2C261641A870001D13A1 /* Build configuration list for PBXProject "BTU-CampusApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = F25A2C211641A870001D13A1;
+			productRefGroup = F25A2C2D1641A870001D13A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25A2C2B1641A870001D13A1 /* BTU-CampusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25A2C2A1641A870001D13A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25A2C3B1641A870001D13A1 /* InfoPlist.strings in Resources */,
+				F25A2C431641A870001D13A1 /* Default.png in Resources */,
+				F25A2C451641A870001D13A1 /* Default@2x.png in Resources */,
+				F25A2C471641A870001D13A1 /* Default-568h@2x.png in Resources */,
+				F25A2C4A1641A870001D13A1 /* MainStoryboard_iPhone_leer.storyboard in Resources */,
+				F25A2C4D1641A870001D13A1 /* MainStoryboard_iPad.storyboard in Resources */,
+				F25A2C5F1641A8AB001D13A1 /* MainStoryboard.storyboard in Resources */,
+				F25A2C691641A990001D13A1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F25A2C711641AB05001D13A1 /* BTU-CampusApp-alt.sqlite3 in Resources */,
+				F293B14D166CB13200F3DA00 /* iPhone-BTU-CampusApp.storyboard in Resources */,
+				CD90C8B516711A52008CF821 /* ort.gpx in Resources */,
+				F23662AE1672BDD9008D9B3D /* Icon-1-114.png in Resources */,
+				F23662B11672BDEF008D9B3D /* Icon-1-57.png in Resources */,
+				F28FD9E516735E24001419BC /* adress-book3.png in Resources */,
+				F28FD9E616735E24001419BC /* adress-book3@2x.png in Resources */,
+				F28FD9E716735E24001419BC /* book.png in Resources */,
+				F28FD9E816735E24001419BC /* book@2x.png in Resources */,
+				F28FD9E916735E24001419BC /* boxes.png in Resources */,
+				F28FD9EA16735E24001419BC /* boxes@2x.png in Resources */,
+				F28FD9EB16735E24001419BC /* bullet-list.png in Resources */,
+				F28FD9EC16735E24001419BC /* bullet-list@2x.png in Resources */,
+				F28FD9ED16735E24001419BC /* calendar.png in Resources */,
+				F28FD9EE16735E24001419BC /* calendar@2x.png in Resources */,
+				F28FD9EF16735E24001419BC /* clock.png in Resources */,
+				F28FD9F016735E24001419BC /* clock@2x.png in Resources */,
+				F28FD9F116735E24001419BC /* comment.png in Resources */,
+				F28FD9F216735E24001419BC /* comment@2x.png in Resources */,
+				F28FD9F316735E24001419BC /* fork-knife.png in Resources */,
+				F28FD9F416735E24001419BC /* fork-knife@2x.png in Resources */,
+				F28FD9F516735E24001419BC /* graduation-cap.png in Resources */,
+				F28FD9F616735E24001419BC /* map-compass.png in Resources */,
+				F28FD9F716735E24001419BC /* map-compass@2x.png in Resources */,
+				F28FD9F816735E24001419BC /* map-marker2@2x.png in Resources */,
+				F28FD9F916735E24001419BC /* map.png in Resources */,
+				F28FD9FA16735E24001419BC /* map@2x.png in Resources */,
+				F28FD9FB16735E24001419BC /* meal@2x.png in Resources */,
+				F28FD9FC16735E24001419BC /* newspaper.png in Resources */,
+				F28FD9FD16735E24001419BC /* stock-market@2x.png in Resources */,
+				F28FD9FE16735E24001419BC /* user-diploma.png in Resources */,
+				F28FD9FF16735E24001419BC /* user-diploma@2x.png in Resources */,
+				F298FB931674B44100213AAF /* Default.png in Resources */,
+				F298FB941674B44B00213AAF /* Default@2x.png in Resources */,
+				F298FB951674B45400213AAF /* Default-568h@2x.png in Resources */,
+				F298FBAD1674FD1A00213AAF /* Icon-1-144.png in Resources */,
+				F298FBAF1674FD3800213AAF /* Icon-1-72.png in Resources */,
+				F298FBB11675054600213AAF /* Default-Portrait~ipad.png in Resources */,
+				F298FBB31675055200213AAF /* Default-Portrait@2x~ipad.png in Resources */,
+				F298FBB51675056200213AAF /* Default-Landscape~ipad.png in Resources */,
+				F298FBB71675056D00213AAF /* Default-Landscape@2x~ipad.png in Resources */,
+				F2CEC070167BA1CF00DB57EF /* MensaView.xib in Resources */,
+				F2CEC079167BA1CF00DB57EF /* RootViewController.xib in Resources */,
+				F2FF16D6167D42AF004D8087 /* tabbaritem.png in Resources */,
+				F2FF16D7167D42AF004D8087 /* tabbaritem@2x.png in Resources */,
+				F2FF16DA167D4390004D8087 /* tabbar.png in Resources */,
+				F2FF16DB167D4390004D8087 /* tabbar@2x.png in Resources */,
+				F2FEB695167D4B2D00963DFD /* BTU-CampusApp.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25A2C281641A870001D13A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25A2C3D1641A870001D13A1 /* main.m in Sources */,
+				F25A2C411641A870001D13A1 /* AppDelegate.m in Sources */,
+				F25A2C601641A8AB001D13A1 /* ToDoListViewController.m in Sources */,
+				F25A2C6E1641AAC2001D13A1 /* FirstViewController.m in Sources */,
+				F25A2C6F1641AAC2001D13A1 /* SecondViewController.m in Sources */,
+				F293B168166CB96A00F3DA00 /* AnnotationClass.m in Sources */,
+				F293B16A166CB96A00F3DA00 /* CampusMapAppDelegate.m in Sources */,
+				F293B16B166CB96A00F3DA00 /* CampusMapViewController.m in Sources */,
+				F298FBA51674F01100213AAF /* WebViewViewController.m in Sources */,
+				F298FBAB1674F0B600213AAF /* WebViewController.m in Sources */,
+				F2CEC073167BA1CF00DB57EF /* OpeningHours.m in Sources */,
+				F2CEC074167BA1CF00DB57EF /* OpeningHoursTableViewController.m in Sources */,
+				F2CEC075167BA1CF00DB57EF /* OpeningHoursViewController.m in Sources */,
+				F2CEC076167BA1CF00DB57EF /* Produkt.m in Sources */,
+				F2CEC077167BA1CF00DB57EF /* ProduktViewController.m in Sources */,
+				F2CEC07E167BA26100DB57EF /* DbConnect.m in Sources */,
+				F24FC169167BAAE800385C30 /* DataFileToObjectParser.m in Sources */,
+				CD49544616820B1F0059FCBF /* LVSearchViewController.m in Sources */,
+				CD4954491682147C0059FCBF /* Abschluss.m in Sources */,
+				CD495450168226BF0059FCBF /* Semester.m in Sources */,
+				CD49545316822E420059FCBF /* Studiengang.m in Sources */,
+				CD832C5E168357170009A548 /* Lehrveranstaltung.m in Sources */,
+				CD832C61168366DA0009A548 /* LVListViewController.m in Sources */,
+				CD832C65168379410009A548 /* LinksViewController.m in Sources */,
+				CD832C68168379D70009A548 /* Links.m in Sources */,
+				F24E9369168B3AC700E0C3C5 /* Essen.m in Sources */,
+				F24E936C168B3AEB00E0C3C5 /* MensaTableViewController.m in Sources */,
+				F277ED79168B3C8100CD58E9 /* MensaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F25A2C391641A870001D13A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25A2C3A1641A870001D13A1 /* en */,
+				F28FDA02167360BF001419BC /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F25A2C481641A870001D13A1 /* MainStoryboard_iPhone_leer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28FDA00167360BD001419BC /* de */,
+			);
+			name = MainStoryboard_iPhone_leer.storyboard;
+			sourceTree = "<group>";
+		};
+		F25A2C4B1641A870001D13A1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28FDA01167360BE001419BC /* de */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25A2C511641A870001D13A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25A2C521641A870001D13A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25A2C541641A870001D13A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTU-CampusApp/BTU-CampusApp-Prefix.pch";
+				INFOPLIST_FILE = "BTU-CampusApp/BTU-CampusApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F25A2C551641A870001D13A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTU-CampusApp/BTU-CampusApp-Prefix.pch";
+				INFOPLIST_FILE = "BTU-CampusApp/BTU-CampusApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25A2C261641A870001D13A1 /* Build configuration list for PBXProject "BTU-CampusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25A2C511641A870001D13A1 /* Debug */,
+				F25A2C521641A870001D13A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25A2C531641A870001D13A1 /* Build configuration list for PBXNativeTarget "BTU-CampusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25A2C541641A870001D13A1 /* Debug */,
+				F25A2C551641A870001D13A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25A2C231641A870001D13A1 /* Project object */;
+}
