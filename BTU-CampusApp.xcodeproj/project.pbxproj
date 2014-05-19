@@ -215,7 +215,7 @@
 		F24066FB16E3804A005F23AF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		F240671216E3AFA0005F23AF /* Linkss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linkss.h; sourceTree = "<group>"; };
 		F240671316E3AFA0005F23AF /* Linkss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linkss.m; sourceTree = "<group>"; };
-		F240671616E42241005F23AF /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/NewsTableViewController.m; sourceTree = "<group>"; };
+		F240671616E42241005F23AF /* de */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = de; path = de.lproj/NewsTableViewController.m; sourceTree = "<group>"; };
 		F24E9367168B3AC700E0C3C5 /* Essen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Essen.h; sourceTree = "<group>"; };
 		F24E9368168B3AC700E0C3C5 /* Essen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Essen.m; sourceTree = "<group>"; };
 		F24E936A168B3AEB00E0C3C5 /* MensaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensaTableViewController.h; sourceTree = "<group>"; };
@@ -635,6 +635,7 @@
 		F293B154166CB94E00F3DA00 /* Beta-Alle */ = {
 			isa = PBXGroup;
 			children = (
+				F2CEC07B167BA1D600DB57EF /* OpeningHours */,
 				F2FA406716AC3A3F0014F9D2 /* News */,
 				F29B8DA616AB0E3D001C3BA6 /* Events */,
 				CD7F41DD16A6F8F10005C4C0 /* Stundenplan */,
@@ -646,7 +647,6 @@
 				F24E9366168B3AAA00E0C3C5 /* Mensa */,
 				CD832C62168379260009A548 /* Links */,
 				CD49544216820B0A0059FCBF /* Lehrveranstaltung */,
-				F2CEC07B167BA1D600DB57EF /* OpeningHours */,
 				F298FB9A1674C18600213AAF /* CampusMap */,
 				F28FDA051673652C001419BC /* WebView */,
 				F290FFEA16714CFC007BC31F /* XML-Parser */,
